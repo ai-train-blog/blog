@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="atwrog"
+                  name="AI Training with Ray" start-page="OpenAI-Whisper-Training-on-a-Ray-Cluster.md">
+
+    <toc-element topic="OpenAI-Whisper-Training-on-a-Ray-Cluster.md"/>
+    <toc-element topic="Prepare-Dev-Environment.md"/>
+    <toc-element topic="Provision-Infrastructure.md">
+        <toc-element topic="On-Google-Cloud-Vertex-AI.md">
+            <toc-element topic="GPU-Availability-in-GCP-Vertex-AI.md"/>
+            <toc-element topic="GCP-Vertex-AI-Prerequisites.md"/>
+            <toc-element topic="Crete-a-Ray-Cluster-on-Vertex-AI.md"/>
+            <toc-element topic="Snafus.md">
+            </toc-element>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="Adjust-Training-Code.md"/>
+    <toc-element topic="Train-on-Provisioned-Infrastructure.md">
+        <toc-element topic="Train-on-GCP-Vertex-AI.md"/>
+    </toc-element>
+    <toc-element topic="Summary.md"/>
+</instance-profile>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="4d131f34">
+        <description>Created after removal of "On Python Version(s)" from AI Training with Ray on GCP</description>
+        <accepts>On-Python-Version-s.html</accepts>
+    </rule>
+    <rule id="77ff51bb">
+        <description>Created after removal of "On AWS Bedrock" from AI Training with Ray on GCP</description>
+        <accepts>On-AWS-Bedrock.html</accepts>
+    </rule>
+    <rule id="269ba2f3">
+        <description>Created after removal of "Summary" from AI Training with Ray</description>
+        <accepts>Summary.html</accepts>
+    </rule>
+    <rule id="36b9a57f">
+        <description>Created after removal of "Train on a Ray Cluster on Vertex AI" from AI Training with Ray
+        </description>
+        <accepts>Train-on-a-Ray-Cluster-on-Vertex-AI.html</accepts>
+    </rule>
+</rules>
